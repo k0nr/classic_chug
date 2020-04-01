@@ -1,0 +1,221 @@
+<style>
+
+/* Force Landscape Mode, the real method */
+
+#warning-message { display: none; 
+background-color: #66CC6F;
+color:black;
+font-size:30px;
+}
+
+@media only screen and (orientation:portrait){
+#wrapper { display:none; }
+#warning-message { display:block; }
+
+ }
+
+    @media only screen and (orientation:landscape){
+        #warning-message { display:none; }
+
+    }
+    
+    
+
+/* Define keyframes */
+
+        html {
+            height: 100%;
+        }
+	
+	
+            @keyframes spinround {
+           50% {transform: rotateY(-90deg);}
+           }
+            
+            @keyframes spinround2 {
+           50% {transform: rotateY(90deg);}
+           }
+		   
+		   @keyframes spit {
+		  50% {transform: rotateX(90deg);}
+		   }
+		   
+		   @-webkit-keyframes blinker {  
+		from { opacity: 1.0; }
+		to { opacity: 0.0; }
+		}
+		
+
+/* Define classes */		   
+	
+		.spit {
+		animation-name: spit;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		}
+		
+		.css3-blinker {
+		 -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 2.5s;
+}
+
+.css3-blinker2 {
+		 -webkit-animation-name: blinker;  
+  -webkit-animation-iteration-count: infinite;  
+  -webkit-animation-timing-function: cubic-bezier(1.0,0,0,1.0);
+  -webkit-animation-duration: 2s;
+}
+  .playtitle {
+    padding-left: 36px
+    text-indent: -36px
+}
+
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
+  
+
+/* youtube container for intro & outro */
+
+.youtube-responsive-container {
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.youtube-responsive-container iframe, 
+.youtube-responsive-container object, 
+.youtube-responsive-container embed {
+position:absolute;
+width:100%;
+height:100%;
+}
+
+/* Styling, etc */
+				
+            body {
+            background: url('images/ides-square.png'); 
+               background-attachment: fixed;
+			font-family: 'PT Mono', monospace;
+			color:white;
+            cursor: url('images/cursor.cur'), default;
+			}
+			
+			p {
+			width: 70%;
+			position: relative;
+			left: 15%;
+			}
+			
+						
+			h1 {
+			font-family: 'Tomorrow', monospace;
+			text-align: left;
+            padding-left: 5%;
+			font-weight: bold;
+			font-size:66px;
+			text-decoration: underline;
+			animation-name: crossfade;
+			animation-duration: 3.5s;
+			animation-iteration-count: infinite;
+
+			}
+			
+			h2 {
+			font-family: 'Tomorrow', monospace;
+			text-align: left;
+            padding-left: 5%;
+			font-weight: bold;
+			font-size: 40px;
+			text-decoration: underline;
+			}
+			
+			h3 {
+			font-weight: bold;
+			color: #FFE64D;
+			text-align: center;
+            font-family: 'Tomorrow', monospace;
+			}
+			
+			h4 {
+			font-family: 'Tomorrow', monospace;
+			text-align: left;
+            padding-left: 5%;
+			font-weight: bold;
+			font-size: 18px;
+			}
+			
+			h5 {
+			font-weight: bold;
+			color: #FFE64D;
+			text-align: center;
+            font-family: serif;
+            font-size:12px;
+			}
+			
+			
+			
+			a:link {
+			color:#99ffff;
+			text-decoration: none;
+			}
+			
+			a:visited {
+			color:#99c1ff;
+			text-decoration: none;
+			}
+			
+			a:hover {
+			color:#99e0ff;	
+			text-decoration: underline;
+			}
+			
+/* Define & style divs */    
+			
+    #playlist {
+		position: relative;
+		left:15%;
+		width:70%;
+		text-align:justify;
+        font-family: 'PT Mono', monospace;
+		}
+		
+    #plays {
+        text-align: left;
+        padding-left: 5%;
+        font-family: 'Tomorrow', monospace;
+        font-weight: light;
+        left: 50%;
+        }
+ 
+        
+        
+    #center-menu {
+        background-color:rgba(0,0,0,0.98);
+        width:55%;
+        position:relative;
+        left:5%;
+        padding-top: 0px;
+        }
+        
+    #contact {
+	  position: fixed;
+    background-color: black;
+	bottom: 0;
+	right: 0;
+	border: 10px solid #99c1ff;
+	color: #99c1ff;
+    width: 200px;
+    font-family: 'Tomorrow', monospace;
+
+    }
+    
+    
+    
+	</style>

@@ -184,7 +184,7 @@ height:100%;
 			}
 			
 			a:hover {
-			color:#f7b947;	
+			
 			text-decoration: underline;
 			}
 			
@@ -222,8 +222,7 @@ height:100%;
     background-color: #f7b947;
 	bottom: 0;
 	right: 0;
-	border: 10px solid #99c1ff;
-	color: #99c1ff;
+	border: 10px solid black;
     width: 200px;
     font-family: 'DM Serif Text', serif;
 

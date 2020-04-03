@@ -9,7 +9,12 @@
  *  #47f7b0
  * 
  * orange
- *  #f7b947 */
+ *  #f7b947 
+ * 
+ * darker background magenta: 
+ * #ca6ade
+
+*/
  
 /* Force Landscape Mode, the real method */
 
@@ -131,7 +136,6 @@ height:100%;
             padding-right: 5%;
 			font-weight: bold;
 			font-size:90px;
-			text-decoration: underline;
 			animation-name: crossfade;
 			animation-duration: 3.5s;
 			animation-iteration-count: infinite;
@@ -143,7 +147,6 @@ height:100%;
 			text-align: center;
 			font-weight: bold;
 			font-size: 55px;
-			text-decoration: underline;
 			}
 			
 			h3 {
@@ -187,7 +190,7 @@ height:100%;
 			
 /* Define & style divs */    
 			
-    #playlist {
+    #playtitles {
 		position: relative;
 		left:15%;
 		width:70%;
@@ -197,7 +200,8 @@ height:100%;
 		}
 		
     #thirty {
-        text-align: center;
+        text-align: left;
+        padding-left: 15%;
         font-family: 'DM Serif Text', serif;
         font-size:28px;
         }
@@ -205,7 +209,7 @@ height:100%;
         
         
     #center-menu {
-        background-color:rgba(247, 71, 194,0.95);
+        background-color:rgba(202, 106, 222, 0.99);
         width:55%;
         position:relative;
         left:35%;

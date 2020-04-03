@@ -113,7 +113,7 @@ height:100%;
             body {
             background: url('images/kh-collage.png'); 
                background-attachment: fixed;
-			font-family: 'PT Mono', monospace;
+			font-family: 'Libre Baskerville', monospace;
 			color:white;
             cursor: url('images/cursor.cur'), default;
 			}
@@ -127,10 +127,10 @@ height:100%;
 						
 			h1 {
 			font-family: 'DM Serif Text', serif;
-			text-align: left;
-            padding-left: 5%;
+			text-align: right;
+            padding-right: 5%;
 			font-weight: bold;
-			font-size:66px;
+			font-size:90px;
 			text-decoration: underline;
 			animation-name: crossfade;
 			animation-duration: 3.5s;
@@ -140,46 +140,44 @@ height:100%;
 			
 			h2 {
 			font-family: 'DM Serif Text', serif;
-			text-align: left;
-            padding-left: 5%;
+			text-align: center;
 			font-weight: bold;
-			font-size: 40px;
+			font-size: 55px;
 			text-decoration: underline;
 			}
 			
 			h3 {
 			font-weight: bold;
-			color: #FFE64D;
+			color: black;
 			text-align: center;
-            font-family: 'Tomorrow', monospace;
+            font-family: 'DM Serif Text', serif;
 			}
 			
 			h4 {
-			font-family: 'Tomorrow', monospace;
-			text-align: left;
-            padding-left: 5%;
+			font-family: 'DM Serif Text', serif;
+			text-align: right;
+            padding-right: 5%;
 			font-weight: bold;
 			font-size: 18px;
 			}
 			
 			h5 {
 			font-weight: bold;
-			color: #FFE64D;
+			color: black;
 			text-align: center;
-            font-family: serif;
-            font-size:12px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size:14px;
 			}
 			
 			
 			
 			a:link {
 			color:black;
-			text-decoration: none;
+            text-decoration: none;
 			}
 			
 			a:visited {
 			color:#47f7b0;
-			text-decoration: none;
 			}
 			
 			a:hover {
@@ -194,15 +192,14 @@ height:100%;
 		left:15%;
 		width:70%;
 		text-align:left;
-        font-family: 'PT Mono', monospace;
+        font-family: 'Libre Baskerville', serif;
+        font-size: 20px;
 		}
 		
-    #plays {
-        text-align: left;
-        padding-left: 5%;
-        font-family: 'Tomorrow', monospace;
-        font-weight: light;
-        left: 50%;
+    #thirty {
+        text-align: center;
+        font-family: 'DM Serif Text', serif;
+        font-size:28px;
         }
  
         
@@ -213,6 +210,7 @@ height:100%;
         position:relative;
         left:35%;
         padding-top: 0px;
+        font-size:18px;
         }
         
     #contact {
@@ -223,7 +221,7 @@ height:100%;
 	border: 10px solid #99c1ff;
 	color: #99c1ff;
     width: 200px;
-    font-family: 'Tomorrow', monospace;
+    font-family: 'DM Serif Text', serif;
 
     }
     

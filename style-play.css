@@ -3,9 +3,9 @@
             }
             
 			body {
-            background: url(images/ides-square.png); 
+            background: url('images/kh_collage_WEBSITEEDIT.png'); 
                 background-attachment: fixed;
-            font-family: Courier New;
+            font-family: 'Libre Baskerville', serif;
 			color:white;
             cursor: url('images/cursor.cur'), default;
 
@@ -52,7 +52,7 @@
     bottom: 0;
     right: 260px;
     text-align: center;
-    font-family: 'Tomorrow', monospace;
+    font-family: 'Libre Baskerville', monospace;
     font-size: 12px;
     background-color: black;
     color: white;
@@ -60,7 +60,7 @@
     }
     
     .title {
-        font-family: 'PT Mono', monospace;
+        font-family: 'DM Serif Text', serif;
 		text-align: center;
 		font-weight: bold;
 		font-size: 24px;
@@ -91,7 +91,10 @@ width:60%;
 height:60%;
 }
 
-
+.highlight {
+    background-color:black;
+    
+}
 
 .centerImage
 {

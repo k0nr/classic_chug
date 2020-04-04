@@ -19,9 +19,10 @@
 /* Force Landscape Mode, the real method */
 
 #warning-message { display: none; 
-background-color: #66CC6F;
-color:black;
+background-color: black;
+color:white;
 font-size:30px;
+font-family:'Libre Baskerville', serif;
 }
 
 @media only screen and (orientation:portrait){

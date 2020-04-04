@@ -3,7 +3,7 @@
             }
             
 			body {
-            background: url('images/kh_collage_WEBSITEEDIT.png'); 
+            background: url('images/kh_collage_dark.png'); 
                 background-attachment: fixed;
             font-family: 'Libre Baskerville', serif;
 			color:white;
@@ -12,21 +12,19 @@
 			
 			}
 		
-			
-			a:link {
-			color:#99ffff;
-			text-decoration: none;
+				a:link {
+			color:black;
+            text-decoration: none;
 			}
 			
 			a:visited {
-			color:#99c1ff;
-			text-decoration: none;
+			color:black;
 			}
 			
 			a:hover {
-			color:#99e0ff;	
 			text-decoration: underline;
 			}
+		
 			
 	#linx {
 		position: relative;
@@ -40,11 +38,12 @@
 	bottom: 0;
 	right: 0;
 	width: 200px;
-	border: 10px solid #99c1ff;
+	border: 10px solid black;
 	text-align:center;
-	background-color: black;
+	background-color: #f7b947;
 	color: #99c1ff;
-    font-family: 'Tomorrow', monospace;
+    font-family: 'DM Serif Text', serif;
+    font-size:20px;
     }
     
     #credit {
@@ -63,12 +62,14 @@
         font-family: 'DM Serif Text', serif;
 		text-align: center;
 		font-weight: bold;
-		font-size: 24px;
+		font-size: 28px;
 		text-decoration: underline;
-		background-color: (0,0,0,0);  
+		background-color: black;  
 		position:relative;
 		padding-top: 15px;
         padding-bottom: 15px;
+        width:50%;
+        left:25%;
     }
     
 		

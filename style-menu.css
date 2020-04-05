@@ -38,12 +38,12 @@ font-family:'Libre Baskerville', serif;
     
     
 
-/* Define keyframes */
 
         html {
             height: 100%;
         }
 	
+/* Define keyframes */
 	
             @keyframes spinround {
            50% {transform: rotateY(-90deg);}
@@ -187,6 +187,10 @@ height:100%;
 			a:hover {
 			text-decoration: underline;
 			}
+			
+			img {
+                width: 100%;
+            }
 			
 /* Define & style divs */    
 			
